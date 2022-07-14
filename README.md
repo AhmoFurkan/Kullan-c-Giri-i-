@@ -21,7 +21,7 @@ Eğer şifre yanlış ise kullanıcıya şifresini sıfırlayıp sıfırlamayaca
             System.out.println("Giriş Yaptınız ! ");
 
         } else if (userName != "patika" && passWord.equals("java123")) {
-            System.out.println("Kullanıcı adı hatalı kullanıcı adınızı yenilemek istermisiniz evet için 1'i hayır için 2'yi basın :");
+            System.out.print("Kullanıcı adı hatalı kullanıcı adınızı yenilemek istermisiniz evet için 1'i hayır için 2'yi basın :");
             kullanıcıAdıYenileme = inp.nextInt();
 
 
